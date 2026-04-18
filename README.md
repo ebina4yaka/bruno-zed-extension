@@ -22,9 +22,6 @@ This extension declares the following language servers:
 - [bruno-language-server](https://github.com/DaviTostes/bruno-language-server)  
   Used as the main Language Server Protocol server for Bruno files.  
 
-- [bruno-formatter](https://github.com/martinjoiner/prettify-bru)  
-  Used as a lightweight formatting adapter that integrates `prettify-bru` with Zed because the main Bruno language server does not provide formatting support.  
-
 ### Grammar
 
 The extension uses the [tree-sitter-bruno](https://github.com/Scalamando/tree-sitter-bruno) grammar.
@@ -34,5 +31,5 @@ The extension uses the [tree-sitter-bruno](https://github.com/Scalamando/tree-si
 Formatting is provided by a lightweight adapter implemented in `scripts/format_server.mjs`.
 
 That adapter integrates:
-- [prettify-bru](https://github.com/martinjoiner/prettify-bru)
+- [prettify-bru](https://github.com/martinjoiner/prettify-bru)  
 The formatter is registered in the Bruno language configuration and exposed to Zed through the `bruno-formatter` language server entry.
