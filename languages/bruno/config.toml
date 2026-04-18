@@ -1,0 +1,19 @@
+name = "Bruno"
+grammar = "bruno"
+path_suffixes = ["bru"]
+line_comments = ["# "]
+
+[[brackets]]
+start = "{"
+end = "}"
+close = true
+newline = true
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[formatter]
+language_server = { name = "bruno-formatter" }

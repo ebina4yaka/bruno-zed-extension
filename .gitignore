@@ -1,0 +1,7 @@
+target/
+debug/
+**/*.rs.bk
+*.pdb
+extension.wasm
+grammars
+.claude/
