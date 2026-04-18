@@ -19,27 +19,20 @@ This repository provides a Zed extension for the Bruno API client language. It a
 
 This extension declares the following language servers:
 
-- `bruno-language-server`  
+- [bruno-language-server](https://github.com/DaviTostes/bruno-language-server)  
   Used as the main Language Server Protocol server for Bruno files.  
-  Repository: `https://github.com/DaviTostes/bruno-language-server`
 
-- `bruno-formatter`  
+- [bruno-formatter](https://github.com/martinjoiner/prettify-bru)  
   Used as a separate formatting server because the main Bruno language server does not provide formatting support.  
-  Backend repository: `https://github.com/martinjoiner/prettify-bru`
 
 ### Grammar
 
-The extension uses the `tree-sitter-bruno` grammar.
-
-- Repository: `https://github.com/Scalamando/tree-sitter-bruno`
+The extension uses the [tree-sitter-bruno](https://github.com/Scalamando/tree-sitter-bruno) grammar.
 
 ### Formatter
 
 Formatting is provided by a custom formatter server implemented in `scripts/format_server.mjs`.
 
 That formatter server uses:
-
-- `prettify-bru` as the formatting backend  
-  Repository: `https://github.com/martinjoiner/prettify-bru`
-
+- [prettify-bru](https://github.com/martinjoiner/prettify-bru)
 The formatter is registered in the Bruno language configuration and is exposed to Zed through the `bruno-formatter` language server entry.
