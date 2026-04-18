@@ -34,5 +34,5 @@ The extension uses the [tree-sitter-bruno](https://github.com/Scalamando/tree-si
 Formatting is provided by a custom formatter server implemented in `scripts/format_server.mjs`.
 
 That formatter server uses:
-- [prettify-bru](https://github.com/martinjoiner/prettify-bru)
+- [prettify-bru](https://github.com/martinjoiner/prettify-bru)  
   The formatter is registered in the Bruno language configuration and is exposed to Zed through the `bruno-formatter` language server entry.
