@@ -22,9 +22,6 @@ This extension declares the following language servers:
 - [bruno-language-server](https://github.com/DaviTostes/bruno-language-server)  
   Used as the main Language Server Protocol server for Bruno files.  
 
-- [bruno-formatter](https://github.com/martinjoiner/prettify-bru)  
-  Used as a separate formatting server because the main Bruno language server does not provide formatting support.  
-
 ### Grammar
 
 The extension uses the [tree-sitter-bruno](https://github.com/Scalamando/tree-sitter-bruno) grammar.
