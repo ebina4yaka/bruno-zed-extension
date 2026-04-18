@@ -3,8 +3,8 @@ name = "Bruno Extension"
 version = "0.0.1"
 schema_version = 1
 authors = ["ebina4yaka <ebina4yaka@protonmail.com>"]
-description = "Bruno extension for syntax highlighting and LSP support"
-repository = "https://github.com/ebina4yaka/bruno-lsp-zed-extension"
+description = "Bruno support"
+repository = "https://github.com/ebina4yaka/bruno-zed-extension"
 
 [language_servers.bruno-language-server]
 name = "Bruno Language Server"
