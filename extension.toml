@@ -5,6 +5,7 @@ schema_version = 1
 authors = ["ebina4yaka <ebina4yaka@protonmail.com>"]
 description = "Bruno support"
 repository = "https://github.com/ebina4yaka/bruno-zed-extension"
+license = "MIT"
 
 [language_servers.bruno-language-server]
 name = "Bruno Language Server"
