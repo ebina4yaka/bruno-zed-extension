@@ -15,5 +15,3 @@ end = "]"
 close = true
 newline = false
 
-[formatter]
-language_server = { name = "bruno-formatter" }

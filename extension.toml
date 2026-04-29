@@ -10,10 +10,6 @@ repository = "https://github.com/ebina4yaka/bruno-zed-extension"
 name = "Bruno Language Server"
 language = "Bruno"
 
-[language_servers.bruno-formatter]
-name = "Bruno Formatter"
-language = "Bruno"
-
 [grammars.bruno]
 repository = "https://github.com/Scalamando/tree-sitter-bruno"
 rev = "dd27fe0eff8e7f8184dfc91e426b886dc8369c46"
